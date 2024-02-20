@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('fondocalculadora.jpg'); /* Ruta a tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.cientifico-gif {
+  position: absolute;
+  top: 10px; /* Ajusta la posición vertical según sea necesario */
+  left: 10px; /* Ajusta la posición horizontal según sea necesario */
+  width: 125px; /* Ajusta el ancho del GIF */
+  height: auto; /* Mantiene la proporción del tamaño */
+}
+
+h2 {
+  margin-top: 50px; /* Ajusta la separación entre el GIF y el título */
+  font-family: 'Roboto', sans-serif; /* Cambiar a una fuente diferente */
+  color: #2c9c2c; /* Cambiar a un verde más oscuro */
+  font-size: 36px; /* Tamaño del título */
+  text-shadow: 0 0 5px rgba(44, 156, 44, 0.7), 0 0 10px rgba(44, 156, 44, 0.5), 0 0 15px rgba(44, 156, 44, 0.3); /* Efecto de sombra de texto */
+}
+
+input[type="text"], .calculate-button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.calculate-button {
+  background-color: #ff6b6b; /* Color de fondo del botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #ff4949; /* Color de fondo del botón al pasar el ratón */
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
